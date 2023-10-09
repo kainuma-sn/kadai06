@@ -1,6 +1,6 @@
 # 第6回課題<br>
 ## 概要<br>
-- Springbootを使って`main.java`を表示させる<br>
+- Springbootを使って`hello`を表示させる<br>
 ## 作業記録<br>
 ### １回目<br>
 ### 手順<br>
