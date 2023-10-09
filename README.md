@@ -24,6 +24,8 @@
 
 ### 第２回結果<br>
 ### 実行画面<br>
+> ![image](https://github.com/kainuma-sn/kadai06/assets/145829664/ec0363fb-5e36-4c5c-ad56-2b468d9aca64)<br>
+> ![image](https://github.com/kainuma-sn/kadai06/assets/145829664/421ccd04-ca81-437b-900d-b49af543c86a)<br>
 
 ## 感想<br>
 以上のように、これから開発する際は、まずはこの流れで進められるようにしたいと考えている。<br>
