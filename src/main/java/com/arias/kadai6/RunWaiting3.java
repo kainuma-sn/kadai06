@@ -6,8 +6,8 @@ public class RunWaiting3 implements Runnable {
     public void run() {
         try {
             for (int i = 0; i < 11; i++) {
-                System.out.println("サブスレッド2(" + i + "/10)");
-                Thread.sleep(500);
+                System.out.println("サブスレッド3(" + i + "/10)");
+                Thread.sleep(300);
             }
 
         } catch (InterruptedException e) {
