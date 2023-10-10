@@ -18,6 +18,22 @@ public class HelloController {
         RunWaiting3 runWaiting3 = new RunWaiting3();
 
         //スレッドの生成
+       private Thread createAndStartThread(Runnable runnable) {
+        Thread thread = new Thread(runnable);
+        thread.start();
+        return thread;
+    }
+
+    private void waitForThreadsToComplete(Thread... threads) {
+        try {
+            for (Thread thread : threads) {
+                thread.join();
+            }
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+            throw new RuntimeException(e);
+        }
+    }
         Thread thread1 = new Thread(runWaiting1);
         Thread thread2 = new Thread(runWaiting2);
         Thread thread3 = new Thread(runWaiting3);
