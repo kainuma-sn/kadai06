@@ -14,6 +14,16 @@ public class HelloController {
 
         //クラスインスタンスの生成
         RunWaiting1 runWaiting1 = new RunWaiting1();
+        
+            private final RunWaiting1 runWaiting1;
+    private final RunWaiting2 runWaiting2;
+    private final RunWaiting3 runWaiting3;
+
+    public HelloController(RunWaiting1 runWaiting1, RunWaiting2 runWaiting2, RunWaiting3 runWaiting3) {
+        this.runWaiting1 = runWaiting1;
+        this.runWaiting2 = runWaiting2;
+        this.runWaiting3 = runWaiting3;
+    }
         RunWaiting2 runWaiting2 = new RunWaiting2();
         RunWaiting3 runWaiting3 = new RunWaiting3();
 
